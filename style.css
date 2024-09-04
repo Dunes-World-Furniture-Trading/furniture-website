@@ -1,43 +1,142 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
+/* Header Styles */
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
 }
 
 header nav ul {
     list-style: none;
     padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
 }
 
 header nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
 section {
-    padding: 20px;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #35424a;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* Team Section Styles */
+#team p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#team p span {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+/* Testimonial Styles */
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 5px solid #35424a;
+    padding-left: 15px;
     margin: 20px 0;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
     width: 100%;
+}
+
+form input[type="submit"] {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2c3b40;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
     bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 2px -2px gray;
 }
