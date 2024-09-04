@@ -151,3 +151,11 @@ footer p {
     margin: 0;
     font-size: 0.9rem;
 }
+
+/* Image Resizing */
+.resized-image {
+    width: 500px; /* Set your desired width */
+    height: auto; /* This will maintain the aspect ratio */
+    max-width: 100%; /* This ensures the image is responsive */
+}
+
