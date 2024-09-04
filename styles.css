@@ -154,7 +154,7 @@ footer p {
 
 /* Image Resizing */
 .resized-image {
-    width: 500px; /* Set your desired width */
+    width: 300px; /* Set your desired width */
     height: auto; /* This will maintain the aspect ratio */
     max-width: 100%; /* This ensures the image is responsive */
 }
