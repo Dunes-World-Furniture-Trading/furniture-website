@@ -71,21 +71,44 @@ section p {
     text-align: center;
 }
 
-/* Team Section Styles */
-#team p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+/* Welcome Section Styles */
+#welcome {
+    padding: 20px;
+    text-align: center;
 }
 
-#team p span {
-    background-color: #333333;
-    color: #ffffff;
-    padding: 10px 15px;
+.welcome-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#welcome h2 {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Team Section Styles */
+#team .team-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#team .team-member {
+    margin: 0 20px;
+    text-align: center;
+}
+
+#team .team-photo {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    font-weight: bold;
+    margin-top: 10px;
 }
 
 /* Testimonial Styles */
@@ -171,4 +194,3 @@ iframe {
     border: 0;
     max-width: 100%;
 }
-
