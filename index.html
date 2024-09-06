@@ -1,74 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dubai Furniture Emporium</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">Dubai Furniture Emporium</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+/* ... (previous CSS rules remain the same) ... */
 
-    <main>
-        <section id="home" class="hero">
-            <h1>Luxury Furniture for Your Dubai Home</h1>
-            <p>Discover elegance and comfort in every piece</p>
-            <a href="#products" class="cta-button">Shop Now</a>
-        </section>
+#welcome {
+    padding: 2rem;
+    background-color: #f0f0f0;
+}
 
-        <section id="products" class="featured-products">
-            <h2>Featured Products</h2>
-            <div class="product-grid">
-                <div class="product-card">
-                    <img src="/api/placeholder/300/200" alt="Luxurious Sofa">
-                    <h3>Luxurious Sofa</h3>
-                    <p>AED 5,999</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product-card">
-                    <img src="/api/placeholder/300/200" alt="Elegant Dining Table">
-                    <h3>Elegant Dining Table</h3>
-                    <p>AED 3,499</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product-card">
-                    <img src="/api/placeholder/300/200" alt="Modern Bed Frame">
-                    <h3>Modern Bed Frame</h3>
-                    <p>AED 4,299</p>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-        </section>
+.welcome-box {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
 
-        <section id="about" class="about-us">
-            <h2>About Dubai Furniture Emporium</h2>
-            <p>We are passionate about bringing luxury and comfort to your home. Our curated collection of furniture pieces is designed to elevate your living spaces and reflect the opulence of Dubai.</p>
-        </section>
+#team {
+    padding: 2rem;
+    background-color: #ffffff;
+}
 
-        <section id="contact" class="contact-form">
-            <h2>Contact Us</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
+.team-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
-    <footer>
-        <p>&copy; 2024 Dubai Furniture Emporium. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+.team-member {
+    text-align: center;
+    margin: 1rem;
+}
+
+.team-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#testimonials {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    border-left: 4px solid #f0c14b;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-container iframe {
+    width: 100%;
+    height: 800px;
+    border: none;
+}
+
+/* ... (rest of the CSS remains the same) ... */
